@@ -1,0 +1,29 @@
+<com.elorri.nestedfragments.views.ToolbarView
+    android:id="@+id/toolbarFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.elorri.nestedfragments.views.ToolbarView"
+    android:background="#00BCD4">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frag A"
+        android:onClick="onSetFragmentAClicked"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frag B"
+        android:onClick="onSetFragmentBClicked"
+        android:layout_weight="1"/>
+
+
+</com.elorri.nestedfragments.views.ToolbarView>

@@ -1,0 +1,35 @@
+<com.elorri.nestedfragments.views.ViewC
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:orientation="vertical"
+    tools:context="com.elorri.nestedfragments.views.ViewC">
+
+    <TextView
+        android:id="@+id/fragmentC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Fragment C" />
+
+
+    <EditText
+        android:id="@+id/user_name_container"
+        android:inputType="textUri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Ex : Pierre" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBackButtonClicked"
+        android:text="back" />
+
+
+</com.elorri.nestedfragments.views.ViewC>
